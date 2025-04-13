@@ -1,4 +1,8 @@
+
+
 # Ancient City Finder
+
+[![Modrinth](https://img.shields.io/modrinth/dt/carpet?label=Modrinth%20downloads&logo=modrinth)](https://modrinth.com/datapack/ancient-city-finder)
 
 ### Overview 
 ---
