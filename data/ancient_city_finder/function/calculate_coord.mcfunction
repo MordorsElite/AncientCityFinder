@@ -3,6 +3,10 @@
 # x = offset_x + ((400 - (distance_03**2 - distance_01**2)) / 40)
 # z = offset_z + ((400 - (distance_02**2 - distance_01**2)) / 40)
 
+# To increase accuracy at the cost of higher chance of failure:
+# Change the fixed point offsets in get_compass: 20 -> 100
+# Change the formula values here: 400 -> 10000 and 40 -> 200 
+
 # Remove previously used coords
 scoreboard players set ancient_city datapack_ancient_city_finder_x 0
 scoreboard players set ancient_city datapack_ancient_city_finder_z 0

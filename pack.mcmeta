@@ -3,7 +3,7 @@
         "pack_format": 61,
         "description": [
             {
-				"text": "Allows you to craft a compass that points to an ancient city",
+				"text": "Hitting a Warden with a Compass will make it point towards the closest Ancient City",
 				"color": "gold"
 			},
 			{
