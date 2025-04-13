@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "convert_compass_by_hitting_warden": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "type": {
+              "direct_entity": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "minecraft:compass"
+                        ],
+                        "count": 1
+                    }
+                }
+              }
+            }
+          },
+          "entity": {
+            "type": "minecraft:warden"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ancient_city_finder:get_compass"
+    }
+  }

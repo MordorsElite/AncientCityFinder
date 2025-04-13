@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "pack_format": 61,
+        "description": [
+            {
+				"text": "Allows you to craft a compass that points to an ancient city",
+				"color": "gold"
+			},
+			{
+				"text": "\nMordorsElite",
+				"color": "dark_purple"
+			}
+        ]
+    }
+}
